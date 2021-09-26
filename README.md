@@ -1,21 +1,45 @@
-# Mergex
+**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
 
-**TODO: Add description**
+Temas:
+ - Grafos1
+ - Grafos2
+ - PD
+ - D&C
+ - Greed
+ - Final 
+ 
+ **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
+ 
+ (Apague essa seção)
 
-## Installation
+# NomedoProjeto
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `mergex` to your list of dependencies in `mix.exs`:
+**Número da Lista**: X<br>
+**Conteúdo da Disciplina**: XXXXXXXXXX<br>
 
-```elixir
-def deps do
-  [
-    {:mergex, "~> 0.1.0"}
-  ]
-end
-```
+## Alunos
+|Matrícula | Aluno |
+| -- | -- |
+| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| xx/xxxxxx  |  xxxx xxxx xxxxx |
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/mergex](https://hexdocs.pm/mergex).
+## Sobre 
+Descreva os objetivos do seu projeto e como ele funciona. 
+
+## Screenshots
+Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+## Instalação 
+**Linguagem**: xxxxxx<br>
+**Framework**: (caso exista)<br>
+Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+
+## Uso 
+Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+
+## Outros 
+Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+
+
+
 
