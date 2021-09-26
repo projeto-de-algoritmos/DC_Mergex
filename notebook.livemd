@@ -1,4 +1,4 @@
-# Livebook
+# Comparação de MergeSort Paralelo com Sequencial
 
 ## Modelo de atores
 
@@ -211,7 +211,8 @@ Mergex.Parallel.sort(list, parallel_max)
 ```elixir
 Benchee.run(%{
   "parallel_4" => fn -> Mergex.Parallel.sort(list, 4) end,
-  "parallel_8" => fn -> Mergex.Parallel.sort(list, 8) end,
-  "parallel_input" => fn -> Mergex.Parallel.sort(list, parallel_max) end
+  "sequential" => fn -> Mergex.Sequential.sort(list) end
+  # "parallel_8" => fn -> Mergex.Parallel.sort(list, 8) end,
+  # "parallel_input" => fn -> Mergex.Parallel.sort(list, parallel_max) end,
 })
 ```

@@ -22,6 +22,9 @@ Cada nó é responsável por um bloco de dados, onde cada bloco é dividido em d
 Mas, cada nó que vai se dividindo é realizado de forma assíncrona, ou seja, não é necessário esperar que todos os nós sejam finalizados para continuar o processamento.
 
 ## Screenshots
+![](images/benchee1.png)
+![](images/comparacao_visual.png)
+![](images/inputs.png)
 
 
 
@@ -32,7 +35,7 @@ Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 Pré requisitos:
 
-Docker
+* `Docker`
 
 Para rodar: 
 
@@ -57,7 +60,3 @@ Explique como usar seu projeto caso haja algum passo a passo após o comando de 
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
