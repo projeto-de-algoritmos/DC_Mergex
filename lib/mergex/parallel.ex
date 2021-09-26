@@ -11,7 +11,7 @@ defmodule Mergex.Parallel do
 
   def sort(list, max_parallel, current_level) do
     list
-    |> Enum.split(list, div(length(list), 2))
+    |> Enum.split(div(length(list), 2))
     |> sort_and_merge(max_parallel, current_level + 1)
   end
 
