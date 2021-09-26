@@ -1,5 +1,6 @@
 defmodule Mergex.Sequential do
-  import Mergex.{Merger}
+  alias Mergex.{Merger}
+
   def sort([]), do: []
   def sort(list = [_]), do: list
 
@@ -10,7 +11,7 @@ defmodule Mergex.Sequential do
   end
 
   defp sort_sublists_sequentially_and_merge({first_list, second_list}) do
-    merge(sort(first_list), sort(second_list))
+    Merger.merge(sort(first_list), sort(second_list))
   end
 
   defp divide_list(list) do
