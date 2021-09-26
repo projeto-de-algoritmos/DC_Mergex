@@ -13,8 +13,8 @@ Os atores podem modificar seu próprio estado privado,
 mas só podem afetar uns aos outros indiretamente por 
 meio de mensagens (eliminando a necessidade de sincronização baseada em bloqueio).
 
-**Dessa forma, utilizar programação concorrente e paralela se torna mais fácil, uma vez que
-cada tarefa em paralelo não compartilha estado e elas se comunicam através de mensagens.**
+**Dessa forma, utilizar programação concorrente se torna mais fácil, uma vez que
+cada tarefa (que substitui o threading tradicional) não compartilha estado e elas se comunicam através de mensagens.**
 
 ![](https://www.brianstorti.com/assets/images/actors.png)
 
@@ -31,7 +31,7 @@ diferente da sua implementação clássica de forma sequencial.
 Na execução clássica, as chamadas recursivas vão dividindo e ordenando, mas isso ocorre
 de forma sequencial.
 
-![](https://visualgo.net/img/merge.png)
+<img src="https://visualgo.net/img/merge.png" width="800" />
 
 De forma paralela, podemos executar as chamadas de forma paralela. Cada chamada recursiva *spawna*
 um processo (ator) filho atrelado ao processo pai que o criou.
